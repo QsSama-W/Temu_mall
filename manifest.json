@@ -1,0 +1,27 @@
+{
+    "name": "Temu卖家中心跳转我的店铺",
+    "version": "1.0",
+    "description": "为卖家中心添加跳转我的店铺按钮",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["*://*.kuajingmaihuo.com/*", "*://*.temu.com/*"],
+            "js": ["content.js"],
+            "css": ["styles.css"]
+        }
+    ],
+    "action": {
+        "default_icon": {
+            "16": "icon.png",
+            "32": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
